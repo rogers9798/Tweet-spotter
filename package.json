@@ -1,0 +1,27 @@
+{
+  "name": "tweet-spotter",
+  "version": "1.0.0",
+  "description": "Tweet-finder is a system with the help of which we can get tweets from twitter corresponding to a certain keyword. All this is achieved with the help of node.js and twitter's streaming API. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogers9798/Tweet-spotter.git"
+  },
+  "author": "rogers9798",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogers9798/Tweet-spotter/issues"
+  },
+  "homepage": "https://github.com/rogers9798/Tweet-spotter#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "socket.io": "^2.2.0",
+    "twitter": "^1.7.1"
+  }
+}
