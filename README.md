@@ -12,8 +12,8 @@ Tweet-spotter is a system with the help of which we can get tweets from twitter 
 ## Prerequisites 
 
 
-> Node.js installed
-> MySQL db installed
+> Node.js installed<br>
+> MySQL db installed<br>
 > An account on Twitter- and a developer account on twitter for keys and token
 
 [![David](https://img.shields.io/david/dev/rogers9798/Tweet-spotter.svg?style=for-the-badge)](https://github.com/rogers9798/Tweet-spotter)
