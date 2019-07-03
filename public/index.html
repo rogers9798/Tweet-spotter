@@ -67,5 +67,28 @@ name="submitDetails" value="Start Processing" class=""> Start Now </button>
 			</div>
 		</div>
 	</body>
-	<!-- Sockets code comes here -->
+	<script>
+		console.log('loading');
+			
+			$('document').ready(function(){
+				console.log('loaded');
+				
+				var socket = io.connect('http://localhost:3000');
+				$("#sub").click(function() {
+					
+					socket.emit('keyword', { keyword : $("#keyword").val() });
+				});
+				
+				socket.on('livetweets' , function(data) {
+					  console.log(data); 
+					  var t = data.data;
+					  $('#tweets').append("<b> Keyword : " + t.keyword  + " </b> </div> <div class='content'> " 
+					  + t.user +  "</div><div class='content'>" +  t.tweet + "</div> <br> <hr>" );
+				})
+			
+	
+			});
+			
+		</script>
+
 </html>	
