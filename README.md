@@ -25,5 +25,5 @@ Tweet-spotter is a system with the help of which we can get `LIVE` tweets from t
 * Twitter has an API for these requests, so the tokens will be available in your twitter developer account after making an app in it.
 
 
-[![David](https://img.shields.io/david/dev/rogers9798/Tweet-spotter.svg?style=for-the-badge)](https://github.com/rogers9798/Tweet-spotter)
+[![img shields.io](https://img.shields.io/badge/JARVIS-rogers9798-orange.svg)](https://github.com/rogers9798/Tweet-spotter)
 
